@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+	background-color: antiquewhite;
+}
+
+.header {
+	background: green;
+	height: 12rem;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	font-family: "Arial";
+	font-size: 1.5rem;
+}
+.header a:active, .header a:focus, .header a:clicked{
+	color:white;
+}
+
+.landing {
+	background-image : url("/wp-content/themes/my-theme/images/bandeau.jpg");
+	height: 15rem;
+	width: 1117px;	
+}
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10vh 0;
+	background: #FFF;
+	color: darkgray;
+}
+.section_title {
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: black;
+	font-family: sans-serif;
+}
+.section_content {
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+.section_transition{
+	background-image: url("/wp-content/themes/my-theme/images/bandeau.jpg");
+}
